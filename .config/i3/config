@@ -189,7 +189,7 @@
 
 # Colors & Others {
 
-	set $bg-color 	         #2D2D2D
+	set $bg-color         #2D2D2D
 	set $inactive-bg-color   #2D2D2D
 	set $text-color          #F2F0EC
 	set $inactive-text-color #747369
@@ -203,10 +203,10 @@
 	client.background	#FFFF
 
 	# Window border size
-	for_window [class="^.*"] border pixel 4
+	for_window [class="^.*"] border pixel 0
 
 	# Window gap
-	gaps inner 30
-	gaps outer 5
+	gaps inner 40
+	gaps outer 10
 
 # }

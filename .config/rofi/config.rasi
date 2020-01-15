@@ -1,0 +1,8 @@
+configuration {
+    lines: 12;
+    font: "Roboto Mono 12";
+    show-icons: true;
+    theme: "oxide";
+    display-window: "Window";
+    display-drun: "Search";
+}
