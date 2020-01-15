@@ -7,11 +7,14 @@
 	# Set Solid Color
 	# exec_always --no-startup-id hsetroot -solid "#be9fe1"
 
-	# Set Background
-	exec_always --no-startup-id feh --bg-scale ~/Imagens/4.jpg
-
 	# Set picom
 	exec_always --no-startup-id picom --config ~/.config/picom/.picom.conf
+
+	# Set polybar
+	exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+	# Set Pywal Color Scheme
+	exec_always --no-startup-id wal -i "Imagens/5.jpg"
 
 	# nm-applet is a desktop environment-independent system tray GUI for the NetworkManager
 	exec --no-startup-id nm-applet
@@ -195,6 +198,8 @@
 	set $inactive-text-color #747369
 	set $urgent-bg-color     #F2777A
 
+	font pango: roboto mono 8
+
 	# class			border  backgr.	text	indicator child_border
 	client.focused		#CFCFCF	#CFCFCF #000000 #ffba5a	  #ffba5a
 	client.focused_inactive #CFCFCF #CFCFCF #000000 #f1f1b0	  #f1f1b0
@@ -206,7 +211,7 @@
 	for_window [class="^.*"] border pixel 0
 
 	# Window gap
-	gaps inner 40
-	gaps outer 10
+	gaps inner 20
+	gaps outer 0
 
 # }
