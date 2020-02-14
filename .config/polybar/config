@@ -27,6 +27,7 @@ alert = #bd2c40
 width = 100%
 height = 35
 fixed-center = true
+bottom = true
 
 background = #000f0f0f
 foreground = ${colors.foreground}
@@ -40,8 +41,8 @@ padding-right = 3
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Roboto Mono:size=7:antialias=true;3			# Main
-font-1 = Noto Sans CJK JP:size=7:antialias=true;2		# (Japanese) Band names, etc.
+font-0 = Curie:size=5:antialias=true;2			# Main
+font-1 = Noto Sans CJK JP:size=8:antialias=true;2		# (Japanese) Band names, etc.
 
 modules-left = i3
 modules-right = pulseaudio date
@@ -50,7 +51,9 @@ tray-position = center
 tray-padding = 0
 
 scroll-up = i3wm-wsnext
-scroll-down = i3wm-wsprev
+scroll-down = i3wm-w
+
+sprev
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -82,7 +85,7 @@ ws-icon-9 = 10;十
 ;pin-workspaces = true
 
 label-model = %mode%
-label-mode-padding = 5
+label-mode-padding = 2
 label-mode-foreground = #fff
 label-mode-background = ${colors.background}
 
@@ -90,12 +93,11 @@ label-focused = %icon%
 label-focused-background = #fff
 label-focused-underline= ${colors.primary}
 label-focused-foreground = #000
-label-focused-padding = 5
+label-focused-padding = 2
 
-; unfocused = Inactive workspace on any monitor
 label-unfocused = %icon%
-label-unfocused-padding = 5
-label-unfocused-background = #000
+label-unfocused-padding = 2
+label-unfocused-background = ${xrdb:color0}
 label-unfocused-foreground = #fff
 
 ; visible = Active workspace on unfocused monitor
@@ -121,7 +123,7 @@ format-padding = 0
 
 label-background = #fff
 label-foreground = #000
-label-padding = 7
+label-padding = 4
 
 [module/pulseaudio]
 
@@ -132,14 +134,14 @@ mapped = true
 label-volume = "%percentage%%"
 label-volume-background = ${xrdb:color0}
 label-volume-foreground = #fff
-label-volume-padding = 8
+label-volume-padding = 5
 
 format-muted = <label-muted>
 
 label-muted = "0%"
 label-muted-background = ${xrdb:color0}
 label-muted-foreground = #fff
-label-muted-padding = 6
+label-muted-padding = 5
 
 format-volume-padding = 0
 format-muted-padding = 0
