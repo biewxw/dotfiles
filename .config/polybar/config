@@ -25,7 +25,7 @@ alert = #bd2c40
 
 [bar/mybar]
 width = 100%
-height = 41
+height = 35
 fixed-center = true
 
 background = #000f0f0f
@@ -40,8 +40,8 @@ padding-right = 3
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Noto Sans:size=8:antialias=true;0			# Main
-font-1 = Noto Sans CJK JP:size=8:antialias=true;0		# (Japanese) Band names, etc.
+font-0 = Roboto Mono:size=7:antialias=true;3			# Main
+font-1 = Noto Sans CJK JP:size=7:antialias=true;2		# (Japanese) Band names, etc.
 
 modules-left = i3
 modules-right = pulseaudio date
@@ -82,20 +82,20 @@ ws-icon-9 = 10;十
 ;pin-workspaces = true
 
 label-model = %mode%
-label-mode-padding = 6
+label-mode-padding = 5
 label-mode-foreground = #fff
 label-mode-background = ${colors.background}
 
 label-focused = %icon%
-label-focused-background = ${xrdb:color2}
+label-focused-background = #fff
 label-focused-underline= ${colors.primary}
-label-focused-foreground = #fff
-label-focused-padding = 6
+label-focused-foreground = #000
+label-focused-padding = 5
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %icon%
-label-unfocused-padding = 6
-label-unfocused-background = ${colors.background}
+label-unfocused-padding = 5
+label-unfocused-background = #000
 label-unfocused-foreground = #fff
 
 ; visible = Active workspace on unfocused monitor
@@ -119,9 +119,9 @@ label = "%time%"
 format = <label>
 format-padding = 0
 
-label-background = ${xrdb:color2}
-label-foreground = #fff
-label-padding = 9
+label-background = #fff
+label-foreground = #000
+label-padding = 7
 
 [module/pulseaudio]
 
@@ -132,14 +132,14 @@ mapped = true
 label-volume = "%percentage%%"
 label-volume-background = ${xrdb:color0}
 label-volume-foreground = #fff
-label-volume-padding = 11
+label-volume-padding = 8
 
 format-muted = <label-muted>
 
-label-muted = "0% (Mute)"
+label-muted = "0%"
 label-muted-background = ${xrdb:color0}
 label-muted-foreground = #fff
-label-muted-padding = 7
+label-muted-padding = 6
 
 format-volume-padding = 0
 format-muted-padding = 0
