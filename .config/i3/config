@@ -14,7 +14,7 @@
 	exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 	# Set Pywal Color Scheme
-	exec_always --no-startup-id wal -i "Imagens/5.jpg"
+	exec_always --no-startup-id wal -i "Imagens/11.jpg"
 
 	# nm-applet is a desktop environment-independent system tray GUI for the NetworkManager
 	exec --no-startup-id nm-applet
@@ -198,20 +198,20 @@
 	set $inactive-text-color #747369
 	set $urgent-bg-color     #F2777A
 
-	font pango: roboto mono 8
+	font pango: Curie 8
 
 	# class			border  backgr.	text	indicator child_border
-	client.focused		#CFCFCF	#CFCFCF #000000 #ffba5a	  #ffba5a
-	client.focused_inactive #CFCFCF #CFCFCF #000000 #f1f1b0	  #f1f1b0
-	client.unfocused	#CFCFCF #CFCFCF #000000 #f1f1b0	  #f1f1b0
+	client.focused		#CFCFCF	#CFCFCF #000000 #242424	  #242424
+	client.focused_inactive #CFCFCF #CFCFCF #000000 #333333	  #333333
+	client.unfocused	#CFCFCF #CFCFCF #000000 #333333	  #333333
 
 	client.background	#FFFF
 
 	# Window border size
-	for_window [class="^.*"] border pixel 0
+	for_window [class="^.*"] border pixel 4
 
 	# Window gap
-	gaps inner 20
+	gaps inner 10
 	gaps outer 0
 
 # }
