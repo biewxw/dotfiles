@@ -1,11 +1,13 @@
 {
   //Workbench Configs
-  // "workbench.colorCustomizations": {},
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": false,
   "workbench.iconTheme": "origamid-next-icons",
   "workbench.fontAliasing": "auto",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "SIMPLE DARK",
+  "workbench.statusBar.visible": false,
   // Editor Configs
   "editor.lineHeight": 22,
   "editor.fontFamily": "Fira Code",
@@ -24,6 +26,8 @@
   "editor.smoothScrolling": true,
   "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
   // Terminal Configs
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.macOptionIsMeta": true,
@@ -53,9 +57,11 @@
       "attr_quotes": "single"
     }
   },
-  // Extra
+  // Window
   "window.zoomLevel": 0,
   "window.title": "Happy Hacking :)",
+  "window.menuBarVisibility": "toggle",
+  // Extras
   "breadcrumbs.enabled": false,
   "extensions.ignoreRecommendations": true,
   "javascript.validate.enable": false,
@@ -75,9 +81,4 @@
   "[json]": {
     "editor.formatOnSave": true
   },
-  "workbench.sideBar.location": "right",
-  "window.menuBarVisibility": "toggle",
-  "glassit.alpha": 250,
-  "workbench.colorTheme": "SIMPLE DARK",
-  "workbench.statusBar.visible": false,
 }
