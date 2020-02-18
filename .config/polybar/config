@@ -109,7 +109,7 @@ label-visible-padding = ${self.label-focused-padding}
 ; urgent = Workspace with urgency hint set
 label-urgent = %index%
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 5
+label-urgent-padding = 2
 
 [module/date]
 
@@ -123,7 +123,7 @@ format-padding = 0
 
 label-background = #fff
 label-foreground = #000
-label-padding = 4
+label-padding = 3
 
 [module/pulseaudio]
 
@@ -134,14 +134,14 @@ mapped = true
 label-volume = "%percentage%%"
 label-volume-background = ${xrdb:color0}
 label-volume-foreground = #fff
-label-volume-padding = 5
+label-volume-padding = 4
 
 format-muted = <label-muted>
 
 label-muted = "0%"
 label-muted-background = ${xrdb:color0}
 label-muted-foreground = #fff
-label-muted-padding = 5
+label-muted-padding = 4
 
 format-volume-padding = 0
 format-muted-padding = 0
