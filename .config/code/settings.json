@@ -7,8 +7,7 @@
   "workbench.iconTheme": "origamid-next-icons",
   "workbench.fontAliasing": "auto",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Just Black",
-  // "workbench.colorTheme": "SIMPLE DARK",
+  "workbench.colorTheme": "Simple Dvkt Mode",
   // Editor Configs
   "editor.lineHeight": 22,
   "editor.fontFamily": "Fira Code",
@@ -48,16 +47,6 @@
   // Git Configs
   "git.confirmSync": false,
   "git.autofetch": false,
-  // Prettier Configs
-  "prettier.bracketSpacing": true,
-  "prettier.trailingComma": "all",
-  // Emmet Configs
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-    "xml": {
-      "attr_quotes": "single"
-    }
-  },
   // Window
   "window.zoomLevel": 0,
   "window.title": "Happy Hacking :)",
@@ -68,18 +57,4 @@
   "javascript.validate.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "bracketPairColorizer.forceIterationColorCycle": true,
-  // Per language
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
-  },
-  "[json]": {
-    "editor.formatOnSave": true
-  },
 }
