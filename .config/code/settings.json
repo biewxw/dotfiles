@@ -22,7 +22,7 @@
   "editor.renderLineHighlight": "gutter",
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.cursorWidth": 100,
@@ -292,4 +292,18 @@
   "javascript.validate.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "bracketPairColorizer.forceIterationColorCycle": true,
+  // FESC Settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true,
+  "[vue]": { // Per Language
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": { // Per Language
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": { // Per Language
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
