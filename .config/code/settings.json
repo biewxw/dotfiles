@@ -7,6 +7,7 @@
   "workbench.iconTheme": "origamid-next-icons",
   "workbench.fontAliasing": "auto",
   "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Simple Dvkt Mode",
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#f534eb7c",
     "editor.selectionHighlightBackground": "#f534eb7c",
@@ -22,6 +23,8 @@
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "editor.cursorWidth": 100,
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "block",
@@ -289,5 +292,4 @@
   "javascript.validate.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "bracketPairColorizer.forceIterationColorCycle": true,
-  "workbench.colorTheme": "Simple Dvkt Mode",
 }
