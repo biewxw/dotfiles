@@ -1,3 +1,3 @@
 # dotfiles
 no rice, no life
-![example](Riced.jpg)
+![example](riced.jpg)
