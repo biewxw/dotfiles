@@ -34,6 +34,9 @@
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -295,15 +298,15 @@
   // FESC Settings
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.requireConfig": true,
-  "[vue]": { // Per Language
+  "[vue]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascript]": { // Per Language
+  "[javascript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json]": { // Per Language
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 }
