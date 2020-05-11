@@ -267,7 +267,7 @@
     ]
   },
   // Terminal Configs
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "terminal.integrated.shell.linux": "/bin/zsh",
