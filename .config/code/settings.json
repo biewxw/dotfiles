@@ -3,7 +3,7 @@
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.iconTheme": "origamid-next-icons",
   "workbench.fontAliasing": "auto",
   "workbench.sideBar.location": "right",
@@ -269,7 +269,7 @@
   // Terminal Configs
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.macOptionIsMeta": true,
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.fontWeightBold": "700",
   "terminal.integrated.lineHeight": 1.6,
@@ -280,7 +280,6 @@
   "explorer.openEditors.visible": 1,
   // Files Configs
   "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
   "files.autoSave": "afterDelay",
   // Git Configs
   "git.confirmSync": false,
@@ -310,4 +309,29 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.renderWhitespace": "none",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.home": "C:\\Program Files\\Java\\jdk1.8.0_241",
+  "java.help.firstView": "gettingStarted",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "yaml.schemas": {
+    "file:///c%3A/Users/biewo/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
+    "file:///c%3A/Users/biewo/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
+  },
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json",
+    "preview-props": "json"
+  },
+    "java.semanticHighlighting.enabled": true,
+    "files.associations": {
+  },
 }
