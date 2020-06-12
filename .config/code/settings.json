@@ -3,11 +3,11 @@
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.iconTheme": "origamid-next-icons",
   "workbench.fontAliasing": "auto",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Simple Dvkt Mode",
+  "workbench.colorTheme": "Bonsai",
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#f534eb7c",
     "editor.selectionHighlightBackground": "#f534eb7c",
@@ -34,240 +34,14 @@
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "editor.renderWhitespace": "none",
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "name": "Comment",
-        "scope": [
-          "comment",
-          "string.comment",
-          "punctuation.definition.comment",
-          "string.quoted.docstring.multi",
-          "string.quoted.docstring.multi storage.type.string",
-        ],
-        "settings": {
-          "foreground": "#5c6370",
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "name": "storage",
-        "scope": [
-          "variable",
-          "storage.type",
-        ],
-        "settings": {
-          "foreground": "#98bfff"
-        }
-      },
-      {
-        "name": "js template-expression, string",
-        "scope": [
-          "string",
-        ],
-        "settings": {
-          "foreground": "#a8f"
-        }
-      },
-      {
-        "name": "keyword",
-        "scope": [
-          "keyword",
-          "constant",
-          "variable.language"
-        ],
-        "settings": {
-          "foreground": "#f6b"
-        }
-      },
-      {
-        "name": "storage",
-        "scope": [
-          "storage.modifier",
-        ],
-        "settings": {
-          "foreground": "#a8f"
-        }
-      },
-      {
-        "name": "Functions",
-        "scope": [
-          "entity",
-          "support",
-        ],
-        "settings": {
-          "foreground": "#00AEFF"
-        }
-      },
-      {
-        "name": "Functions",
-        "scope": [
-          "variable.other",
-        ],
-        "settings": {
-          "foreground": "#53d6e2"
-        }
-      },
-      {
-        "name": "Functions",
-        "scope": [
-          "variable.other.readwrite",
-        ],
-        "settings": {
-          "foreground": "#ffb7ff"
-        }
-      },
-      {
-        "name": "Function argument",
-        "scope": [
-          "variable.parameter",
-        ],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#fff"
-        }
-      },
-      {
-        "name": "Function argument",
-        "scope": [
-          "variable.name",
-        ],
-        "settings": {
-          "fontStyle": "underline",
-          "foreground": "#fff"
-        }
-      },
-      {
-        "name": "Tag Other",
-        "scope": "meta",
-        "settings": {
-          "foreground": "#fff"
-        }
-      },
-      {
-        "name": "Invalid",
-        "scope": "invalid",
-        "settings": {
-          "fontStyle": "",
-          "foreground": "#FF0B00"
-        }
-      },
-      // JSON
-      {
-        "name": "[JSON] key",
-        "scope": [
-          "source.json",
-          "support.dictionary.json",
-          "support.type.property-name.json",
-        ],
-        "settings": {
-          "foreground": "#fff"
-        }
-      },
-      {
-        "name": "[JSON] value",
-        "scope": [
-          "source.json string",
-          "source.json punctuation.definition.string",
-          "punctuation.definition.string.end.json",
-          "punctuation.definition.string.begin.json",
-          "structure.dictionary.property-name.json"
-        ],
-        "settings": {
-          "foreground": "#a8f"
-        }
-      },
-      // HTML
-      {
-        "name": "[HTML] - brakets <>",
-        "scope": [
-          "punctuation.definition.tag.end.html",
-          "punctuation.definition.tag.begin.html"
-        ],
-        "settings": {
-          "foreground": "#777"
-        }
-      },
-      // CSS
-      {
-        "name": "[CSS] - keys",
-        "scope": [
-          "support.type.property-name.css",
-          "source.css support",
-          "source.stylus support",
-          "source.css support.constant"
-        ],
-        "settings": {
-          "foreground": "#ddd",
-        }
-      },
-      {
-        "name": "[CSS] - Keyword",
-        "scope": [
-          "source.css punctuation.definition.keyword",
-          "source.css keyword.control",
-          "keyword.other.important.scss",
-        ],
-        "settings": {
-          "foreground": "#f6b"
-        }
-      },
-      {
-        "name": "[CSS] - ID Selector",
-        "scope": [
-          "entity.other.attribute-name.id.css",
-          "entity.other.attribute-name.pseudo-element.css",
-          "punctuation.definition.entity.css",
-          "entity.name.tag.css",
-        ],
-        "settings": {
-          "foreground": "#8df"
-        }
-      },
-      {
-        "name": "[CSS]",
-        "scope": [
-          "keyword.other.unit.css",
-          "keyword.other.unit.px.css",
-          "keyword.other.unit.percentage.css",
-          "constant.other.color.rgb-value.hex.css",
-          "keyword.other.unit.ms.css",
-          "keyword.other.unit.s.css",
-          "keyword.other.unit.vh.css",
-          "keyword.other.unit.vw.css",
-          "keyword.other.unit.deg.css",
-          "keyword.other.unit.fr.css",
-          "source.css variable",
-          "source.stylus variable",
-          "support.constant.property-value.css",
-          "source.stylus constant",
-          "source.css constant",
-          "support.function.misc.scss",
-          "punctuation.definition.constant.css",
-        ],
-        "settings": {
-          "foreground": "#a8f"
-        }
-      },
-      {
-        "name": "[CSS] - String",
-        "scope": [
-          "source.css string",
-          "source.css punctuation.definition.string",
-          "source.stylus string",
-          "source.stylus punctuation.definition.string"
-        ],
-        "settings": {
-          "foreground": "#98c379"
-        }
-      },
-    ]
-  },
   // Terminal Configs
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.shell.linux": "/bin/zsh",
@@ -280,34 +54,56 @@
   "explorer.openEditors.visible": 1,
   // Files Configs
   "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
   "files.autoSave": "afterDelay",
   // Git Configs
   "git.confirmSync": false,
   "git.autofetch": false,
   // Window
   "window.zoomLevel": 0,
-  "window.title": "Happy Hacking :)",
+  "window.title": "ハッピーハッキング",
   "window.menuBarVisibility": "toggle",
+  // Java
+  "java.semanticHighlighting.enabled": true,
+  "java.requirements.JDK11Warning": false,
+  "java.home": "C:\\Program Files\\Java\\jdk1.8.0_241",
+  "java.help.firstView": "gettingStarted",
   // Extras
   "breadcrumbs.enabled": false,
   "extensions.ignoreRecommendations": true,
   "javascript.validate.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "bracketPairColorizer.forceIterationColorCycle": true,
+  // Per Language
+ "[vue]": {
+   "editor.formatOnSave": true,
+   "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "[javascript]": {
+   "editor.formatOnSave": true,
+   "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "[json]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
   // FESC Settings
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsicons.dontShowNewVersionMessage": true,
   "prettier.requireConfig": true,
-  "[vue]": { // Per Language
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "yaml.schemas": {
+    "file:///c%3A/Users/biewo/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
+    "file:///c%3A/Users/biewo/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
   },
-  "[javascript]": { // Per Language
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // Vetur
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json",
+    "preview-props": "json"
   },
-  "[json]": { // Per Language
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.renderWhitespace": "none",
 }
