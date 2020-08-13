@@ -7,13 +7,10 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-echo "> Installing: Git & Dotfiles Configs"
+echo "> Installing: Git Configs"
 
-cd
-mkdir $HOME/Documentos/deepweb
 git config --global user.name "Gabriel"
 git config --global user.email "gabrieldeoliveira.gdo23@gmail.com"
-git clone https://github.com/biewxw/dotfiles.git
 
 echo "> Installing: Essential Apps"
 
