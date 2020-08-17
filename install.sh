@@ -35,4 +35,4 @@ yay -Sy screenfetch
 yay -Sy neofetch
 yay -Sy htop
 yay -Sy zsh
-sh -c “$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+curl -L http://install.ohmyz.sh | sh
