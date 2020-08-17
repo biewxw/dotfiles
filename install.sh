@@ -2,10 +2,8 @@
 
 echo "> Installing: Essential Packages"
 
-sudo pacman -S --noconfirm base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+sudo pacman -S base-devel
+sudo pacman -S yay
 
 echo "> Installing: Git Configs"
 
@@ -14,27 +12,27 @@ git config --global user.email "gabrieldeoliveira.gdo23@gmail.com"
 
 echo "> Installing: Essential Apps"
 
-yay -Sy --noconfirm nodejs npm
-yay -Sy --noconfirm yarn
-yay -Sy --noconfirm ttf-fira-code
-yay -Sy --noconfirm sonic-pi
-yay -Sy --noconfirm notion-app
-yay -Sy --noconfirm spotify
-yay -Sy --noconfirm discord
-yay -Sy --noconfirm firefox-developer-edition
-yay -Sy --noconfirm visual-studio-code-insiders
-yay -Sy --noconfirm telegram
-yay -Sy --noconfirm insomnia
-yay -Sy --noconfirm obsidian-appimage
-yay -Sy --noconfirm wps-office
-yay -Sy --noconfirm docker
-yay -Sy --noconfirm vue-cli
-yay -Sy --noconfirm veonim
+yay -Sy nodejs npm
+yay -Sy yarn
+yay -Sy ttf-fira-code
+yay -Sy sonic-pi
+yay -Sy notion-app
+yay -Sy spotify
+yay -Sy discord
+yay -Sy firefox-developer-edition
+yay -Sy visual-studio-code-insiders
+yay -Sy telegram
+yay -Sy insomnia
+yay -Sy obsidian-appimage
+yay -Sy wps-office
+yay -Sy docker
+yay -Sy vue-cli
+yay -Sy veonim
 
 echo "> Installing: Oh My ZSH and Terminal Packages"
 
-yay -Sy --noconfirm screenfetch
-yay -Sy --noconfirm neofetch
-yay -Sy --noconfirm htop
-yay -Sy --noconfirm zsh
+yay -Sy screenfetch
+yay -Sy neofetch
+yay -Sy htop
+yay -Sy zsh
 sh -c “$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
