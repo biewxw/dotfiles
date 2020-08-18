@@ -21,13 +21,12 @@ yay -Sy spotify
 yay -Sy discord
 yay -Sy firefox-developer-edition
 yay -Sy visual-studio-code-insiders
-yay -Sy telegram
+yay -Sy telegram-desktop
 yay -Sy insomnia
 yay -Sy obsidian-appimage
 yay -Sy wps-office
 yay -Sy docker
 yay -Sy vue-cli
-yay -Sy veonim
 
 echo "> Installing: Oh My ZSH and Terminal Packages"
 
