@@ -65,6 +65,6 @@ cp .zshrc ~/
 cp .icons ~/
 cp .themes ~/
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /opt/Hyper/hyper 50
-# ssh-keygen -t rsa -b 4096 -C "gabrieldeoliveira.gdo23@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "gabrieldeoliveira.gdo23@gmail.com"
 git clone https://github.com/biewxw/dotfiles.git ~/Documentos/Limbo/dotfiles
 git clone https://github.com/biewxw/garden.git ~/Documentos/Limbo/garden
